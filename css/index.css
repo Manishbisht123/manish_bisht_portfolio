@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+span {
+    color: #3c48e7;
+}
+
+.navbar-brand span {
+    color: #3c48e7;
+    font-size: 24px;
+}
+
+
+/* home section */
+
+.home {
+    width: 100%;
+}
+
+
+.home .img-fluid {
+    height: 360px;
+    width: 420px;
+}
+
+.home h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+
+.home h1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #3c48e7;
+}
+
+.home h3 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.home button {
+    height: 46px;
+    width: 150px;
+    color: #fff;
+    background-color: #3c48e7;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.home button:hover {
+    background: transparent;
+    border: 2px solid #3c48e7;
+    color: #3c48e7;
+}
+
+.home .social-icon .bi-facebook {
+    color: #3c48e7;
+    font-size: 22px;
+}
+
+.home .social-icon .bi-instagram {
+    color: #3c48e7;
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+.home .social-icon .bi-linkedin {
+    color: #3c48e7;
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+.home .social-icon .bi-whatsapp {
+    color: #3c48e7;
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+
+/* about section */
+
+.about {
+    width: 100%;
+}
+
+.about h2 {
+    font-weight: 600;
+}
+
+.about h5 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.about h6 {
+    color: #555;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    text-transform: capitalize;
+}
+
+.about h4 {
+    color: #555;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.about p {
+    color: #444;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.about .img-fluid {
+    height: 360px;
+    width: 420px;
+    object-fit: cover;
+    -webkit-mask-image: url(../images/splsh.png);
+    -webkit-mask-size: cover;
+}
+
+
+/* skills section */
+
+.skills {
+    width: 100%;
+}
+
+.skills .img-fluid {
+    height: 50px;
+    width: 50px;
+}
+
+.skills h2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.skills h1 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.skills p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+    text-align: center;
+}
+
+
+
+/* services section */
+
+.services {
+    width: 100%;
+}
+
+.services .img-fluid {
+    height: 50px;
+    width: 50px;
+}
+
+.services h2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.services h1 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.services p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+    text-align: center;
+}
+
+
+/* work section */
+
+.work {
+    widows: 100%;
+}
+
+.work h2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.work h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.work .img-thumbnail:hover {
+    scale: 1.1;
+}
+
+
+/* freelancer section */
+
+.freelancer {
+    width: 100%;
+    height: 40vh;
+    background-color: #3c48e7;
+    display: flex;
+    align-items: center;
+}
+
+.freelancer h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.freelancer h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+/* contact section */
+
+.contact {
+    width: 100%;
+}
+
+.contact h2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/* message section */
+
+#fixedbutton {
+    width: 80px;
+    position: fixed;
+    bottom: 120px;
+    right: 15px;
+}
+
+
+/* top button */
+
+.top {
+    width: 80px;
+    position: relative;
+    bottom: 120px;
+    left: 15px;
+}
+
+
+.top i {
+    font-size: 30px;
+}
